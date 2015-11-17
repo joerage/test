@@ -18,6 +18,6 @@
     }
   },
   "runCommand": {
-    "commandToExecute": "powershell.exe"
+    "commandToExecute": "powershell.exe -File .\\Test-Idempotent.ps1"
   }
 }
