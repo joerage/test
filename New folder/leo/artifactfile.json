@@ -20,4 +20,4 @@
   "runCommand": {
     "commandToExecute": "powershell.exe -File .\\Test-Idempotent.ps1"
   }
-}
+
