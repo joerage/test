@@ -4,7 +4,6 @@
   "description": "Used to test idempotent artifact creation.",
   "type": "Microsoft.DevTestLab.Artifact.Powershell.CustomScript",
   "iconUri": "",
-  "targetOsType": "Windows",
   "parameters": {
     "Message": {
       "type": "string",
@@ -20,4 +19,4 @@
   "runCommand": {
     "commandToExecute": "powershell.exe -File .\\Test-Idempotent.ps1"
   }
-
+}
