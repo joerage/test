@@ -4,6 +4,7 @@
   "description": "Used to test idempotent artifact creation.",
   "type": "Microsoft.DevTestLab.Artifact.Powershell.CustomScript",
   "iconUri": "",
+  "targetOsType": "Windows2",
   "parameters": {
     "Message": {
       "type": "string",
